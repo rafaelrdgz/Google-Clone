@@ -1,0 +1,143 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header {
+    width: 100%;
+    height: 60px;
+}
+.header__nav {
+    display: flex;
+    justify-content: end;
+}
+.nav__right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.right-section__item {
+    margin-right: 10px;
+    color: #000000;
+}
+.right-section__icon-container {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+.right-section__profile-picture {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.main {
+    margin-top: 150px;
+    text-align: center;
+}
+.section-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.section-logo__logo-img {
+    width: 300px;
+}
+.section-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.input-container__search-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.input-container__search-input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.input-container__micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.section-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+.button-container {
+    display: inline-block;
+}
+.button-container__button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0px;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+.button-container__button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.footer-container {
+    margin-bottom: 10;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.footer-left {
+    justify-self: left;
+}
+.footer-right {
+    justify-self: right;
+}
+.footer_link {
+    margin: 10px;
+    color: #5f6368;
+}
